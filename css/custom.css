@@ -23,6 +23,11 @@ img
 {
     width: 100%;
 }
+.after-slide, .share-icons
+{
+    background: url(../img/00.png);
+    padding-bottom: 50px;
+}
 /*--------------------------------------------------------------------------------------------
 preloadre
 -----------------------------------------------------------------------------------------------*/
@@ -65,7 +70,7 @@ header
 }
 .logo h1
 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Coda', cursive;
     color: rgb(173, 200, 248);
     font-size: 55px;
 }
@@ -138,13 +143,14 @@ subscribe
 /*----------------------------------------------------------------------------------------------------
 Our service
 -----------------------------------------------------------------------------------------------------*/
+.services
+{
+    background: url(../img/services.jpg);
+    padding: 50px 0px;
+}
 .service, .share, .subscribe
 {
     background-color: #e0e0e0;
-}
-.service 
-{
-    margin-top: 50px;
 }
 .service-text h3, .share-text h3, .subscribe-text h3
 {
@@ -159,15 +165,12 @@ Our service
     color: #5E5E5E;
     font-family: 'Merriweather', serif;
 }
-#service-row
-{
-    padding: 50px;
-}
 .about-service 
 {
     font-family: 'Old Standard TT', serif;
     font-size: 19px;
     padding-top: 25px;
+    background: url(../img/00.png);
 }
 .about-service p
 {
@@ -178,7 +181,8 @@ Our service
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 33px;
-    text-shadow: 2px 1px 1px #fff;
+    text-shadow: 1px 1px 1px #FFF;
+    color: rgb(179, 179, 179);
 }
 .service-icon i 
 {
@@ -307,8 +311,8 @@ FOOTER
 }
 .name
 {
-    font-family: 'Lobster', cursive;
-    color: #BDFCF8;
+    font-family: 'Coda', cursive;
+    color: rgb(173, 200, 248);
     font-size: 45px;
 }
 .copyright 
