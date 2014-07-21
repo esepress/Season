@@ -147,6 +147,7 @@ Our service
 {
     background: url(../img/services.jpg);
     padding: 50px 0px;
+    background-size: cover;
 }
 .service, .share, .subscribe
 {
@@ -399,5 +400,33 @@ media query for responsive
     .carousel-inner > .item > img 
     {
         height: 750px;
+    }
+}
+@media all and (max-width: 399px)
+{
+    .timer-circle h1 
+    {
+        font-size: 30px;
+    }
+    .circle 
+    {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+    #spacer1 
+    {
+        font-size: 25px;
+        padding-top: 15px;
+    }
+    #spacer2 
+    {
+        font-size: 25px;
+    }
+    .title 
+    {
+        margin: 0;
+        padding: 0;
+        line-height: 1;
     }
 }
