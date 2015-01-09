@@ -6,16 +6,13 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="img/season-change.jpg" type="image/x-icon">
+		<link rel="shortcut icon" href="img/Favicon.png" type="image/x-icon">
 		<title>Season</title>
-
-		<script type="text/javascript" src="js/pre-loader.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/pre-loader.css">
 
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/timer.js"></script>
-		
+		<script type="text/javascript" src="js/script.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -35,12 +32,13 @@
 		    </ol>
 		    <div class="carousel-inner">
 		    	<div class= "container timer">
-		    		<div class= "logo text-center">
+		    		<div id="home" class= "logo text-center">
 		    			<h1>Season</h1>
 		   			</div>
 			    	<div class= "row timer-circle">
-			    		<div class= "text-center">
-			    			<h1>Coming Soon</h1>
+			    		<div class= "main-text text-center">
+			    			<h2 class="top-text">Season - One Page Responsive</h2>
+			    			<h2 class="sub-text">Coming Soon</h2>
 			    		</div>
 			    		<div class="text-center">
 							<div class="numbers" id="count2"></div>
@@ -132,17 +130,19 @@
 						<p class= "after-slide-text">Our website is under construction. We`ll be here soon with our new site.</p>
 					</div>
 				</div>
-				<div class= "row">
-					<div class="input-group margin-bottom-sm col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 text-center">
-					  	<span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
-					  	<input class="form-control" type="text" placeholder="Email address">
-					</div>
-					<div class="input-group col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 text-center form">
-					  	<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
-					  	<input class="form-control" type="password" placeholder="Password">
-					</div>
-					<div class="input-group margin-bottom-sm col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
-						<button type="button" class="btn btn-info">Subscribe</button>
+				<div class="subscribe-form" >
+					<div class= "row">
+						<div class="input-group margin-bottom-sm col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 text-center">
+						  	<span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+						  	<input class="form-control" type="text" placeholder="Email address">
+						</div>
+						<div class="input-group col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 text-center form">
+						  	<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+						  	<input class="form-control" type="password" placeholder="Password">
+						</div>
+						<div class="input-group margin-bottom-sm col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+							<button type="button" class="btn btn-info">Subscribe</button>
+						</div>
 					</div>
 				</div>
 			</div><!-- end of after slide part -->
@@ -198,7 +198,7 @@
 						</div>
 					</div>
 					<div class= "col-lg-2 col-md-2 col-sm-2 col-xs-12" id="back-top">
-						<p class= "pull-right"><a href="#myCarousel"><span></span>Top</a></p>	
+						<p class= "pull-right"><a href="#home"><span></span>Top</a></p>	
 					</div>	
 				</div><!-- row -->
 			</div>
